@@ -27,13 +27,15 @@ client.on('message', msg => {
 
     const command = parts[0].toLowerCase();
     parts.splice(0, 1);
-    switch (command) {
+    switch (command.toLowerCase()) {
         case "!!help":
             msg.reply(`pick your poison:
-    caniuse: caniuse.com
-    docs: devdocs.io
-    g: lmgtfy.com
-    so: stackoverflow.com`)
+\`\`\`md
+- caniuse: caniuse.com
+- docs: devdocs.io
+- g: lmgtfy.com
+- so: stackoverflow.com
+\`\`\``)
             break;
 
         case "!!caniuse":
