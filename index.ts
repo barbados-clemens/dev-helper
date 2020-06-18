@@ -30,10 +30,12 @@ client.on('message', msg => {
     switch (command) {
         case "!!help":
             msg.reply(`pick your poison:
-    caniuse: caniuse.com
-    docs: devdocs.io
-    g: lmgtfy.com
-    so: stackoverflow.com`)
+\`\`\`md
+- caniuse: caniuse.com
+- docs: devdocs.io
+- g: lmgtfy.com
+- so: stackoverflow.com
+\`\`\``)
             break;
 
         case "!!caniuse":
