@@ -1,4 +1,6 @@
 # DevHelper Bot (dev-helper-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/barbados-clemens/dev-helper/tree/main
+)
 
 ## Installation
 - [Clone the Repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)

@@ -1,0 +1,17 @@
+{
+  "name": "Dev Helper Discord Bot",
+  "description": "A simple bot that links to searches on common dev sites. !!help for options",
+  "repository": "https://github.com/barbados-clemens/dev-helper",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": [
+    "node",
+    "discord",
+    "developer"
+  ],
+  "env": {
+    "DISCORD_BOT_TOKEN": {
+      "description": "A secret key for logging in the bot",
+      "generator": "secret"
+    }
+  }
+}
