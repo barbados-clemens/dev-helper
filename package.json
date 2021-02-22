@@ -18,10 +18,10 @@
   "dependencies": {
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
+    "@types/node": "^13.7.4",
     "typescript": "^3.9.5"
   },
   "devDependencies": {
-    "@types/node": "^13.7.4",
     "tslint": "^6.1.2"
   }
 }
