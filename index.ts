@@ -67,7 +67,7 @@ client.on('message', msg => {
             const comic = Number(parts[0]);
             if (comic >= 0) {
                 msg.channel.send({
-                    content: `https://https://xkcd.com/${comic}/`
+                    content: `https://xkcd.com/${comic}/`
                 })
             } else {
                 msg.channel.send({
